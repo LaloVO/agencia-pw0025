@@ -55,7 +55,7 @@ const MapPage = () => {
   return (
     <>
       <Helmet>
-        <title>Mapa de Propiedades | Asesoría Inmobiliaria M&E</title>
+        <title>Mapa de Propiedades | Agencia</title>
         <meta
           name="description"
           content="Explora nuestro catálogo de propiedades en Saltillo en el mapa interactivo."

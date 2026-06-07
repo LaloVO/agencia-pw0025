@@ -31,7 +31,7 @@ const ContactoMe = () => {
     e.preventDefault();
     const tel = user?.telefono_usuario ?? '844-122-3344';
     const text = encodeURIComponent(
-      `Hola M&E Inmobiliaria, mi nombre es ${form.nombre}. Me interesa ponerme en contacto.\n` +
+      `Hola Agencia Inmobiliaria, mi nombre es ${form.nombre}. Me interesa ponerme en contacto.\n` +
       `Correo: ${form.email}\n` +
       `Teléfono: ${form.telefono}\n` +
       `Mensaje: ${form.mensaje}`

@@ -45,7 +45,7 @@ const Navbar = () => {
     }
   };
 
-  const whatsappNumber = user?.telefono_usuario?.replace(/\D/g, '') ?? '528441223344';
+  const whatsappNumber = user?.telefono_usuario?.replace(/\D/g, '') ?? '5210000000000';
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 px-4 sm:px-6">
@@ -67,7 +67,7 @@ const Navbar = () => {
             </div>
             <div className="text-left">
               <span className="font-serif font-black text-sm text-slate-900 tracking-wider uppercase block leading-none">
-                M&E Inmobiliaria
+                Agencia Inmobiliaria
               </span>
               <span className="text-[10px] text-[#1D4ED8] tracking-[0.18em] uppercase font-sans font-bold">
                 Asesoría Profesional

@@ -16,11 +16,11 @@ const Index = () => {
     <>
       <Helmet>
         <title>
-          {user?.nombre_usuario ?? 'Asesoría Inmobiliaria M&E'} — Asesoría Profesional en Saltillo
+          {user?.nombre_usuario ?? 'Agencia'} — Asesoría Profesional en Saltillo
         </title>
         <meta
           name="description"
-          content="Asesoría Inmobiliaria M&E en Saltillo, Ramos Arizpe y Arteaga. Venta, renta e inversión inmobiliaria con seguridad legal, transparencia y acompañamiento experto."
+          content="Agencia en Saltillo, Ramos Arizpe y Arteaga. Venta, renta e inversión inmobiliaria con seguridad legal, transparencia y acompañamiento experto."
         />
       </Helmet>
 

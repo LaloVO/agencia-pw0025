@@ -45,7 +45,7 @@ const HeroMe = () => {
           </h1>
 
           <p className="font-sans text-slate-500 text-base sm:text-lg md:text-xl max-w-2xl leading-relaxed">
-            Bienvenido a **Asesoría Inmobiliaria M&E**. Nos especializamos en conectar tus metas patrimoniales con las mejores propiedades residenciales, comerciales y terrenos en Coahuila.
+            Bienvenido a **Agencia**. Nos especializamos en conectar tus metas patrimoniales con las mejores propiedades residenciales, comerciales y terrenos en Coahuila.
           </p>
         </div>
       </div>

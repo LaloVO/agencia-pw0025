@@ -41,7 +41,7 @@ const PerfilMe = () => {
                 Tu Asesor de Confianza
               </span>
               <h2 className="font-serif font-black text-3xl sm:text-4xl md:text-5xl leading-tight">
-                {user?.nombre_usuario ?? 'M&E Asesoría Inmobiliaria'}
+                {user?.nombre_usuario ?? 'Agencia Asesoría Inmobiliaria'}
               </h2>
               <p className="font-sans text-white/80 text-sm sm:text-base leading-relaxed">
                 Mi compromiso es darte una experiencia de compra, venta o renta de inmuebles totalmente transparente y segura. Te guío de forma personalizada en cada paso del proceso, cuidando siempre de tu patrimonio.
@@ -75,7 +75,7 @@ const PerfilMe = () => {
           <div className="lg:col-span-6 relative aspect-square lg:aspect-auto min-h-[400px] bg-slate-100 overflow-hidden">
             <img
               src={profileImg}
-              alt={user?.nombre_usuario ?? 'M&E Asesor'}
+              alt={user?.nombre_usuario ?? 'Agencia Asesor'}
               className="w-full h-full object-cover object-top hover:scale-102 transition-transform duration-700"
             />
             {/* Hover overlay perimetral */}

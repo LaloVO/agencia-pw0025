@@ -6,8 +6,8 @@ const Footer = () => {
   const { user } = useSiteUser();
   const year = new Date().getFullYear();
 
-  const tel = user?.telefono_usuario ?? '844-122-3344';
-  const email = user?.email_usuario ?? 'contacto@meinmobiliaria.com.mx';
+  const tel = user?.telefono_usuario ?? '521-000-000-0000';
+  const email = user?.email_usuario ?? 'contacto@agencia.com';
   const whatsappUrl = `https://wa.me/${tel.replace(/\D/g, '')}?text=Hola%20M%26E%20Inmobiliaria,%20me%20gustaría%20más%20información`;
 
   return (
@@ -23,7 +23,7 @@ const Footer = () => {
               <Building2 className="w-4 h-4 text-white" />
             </div>
             <span className="font-serif font-black text-white text-base tracking-widest uppercase">
-              M&E Inmobiliaria
+              Agencia Inmobiliaria
             </span>
           </div>
           <p className="font-sans text-sm text-slate-400 max-w-sm leading-relaxed">
@@ -70,7 +70,7 @@ const Footer = () => {
           </p>
           <div className="flex gap-3 pt-2">
             <a
-              href="https://www.facebook.com/profile.php?id=100064087568495"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-slate-800 hover:bg-[#1D4ED8] text-white flex items-center justify-center transition-all duration-300 shadow-md"
@@ -96,7 +96,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 font-sans">
-        <p>© {year} Asesoría Inmobiliaria M&E. Todos los derechos reservados.</p>
+        <p>© {year} Agencia. Todos los derechos reservados.</p>
         <div className="flex gap-6">
           <Link to="/solicita-inmueble" className="hover:text-white transition-colors">
             Búsqueda Inteligente

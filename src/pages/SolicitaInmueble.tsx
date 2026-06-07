@@ -16,7 +16,7 @@ export default function SolicitaInmueble() {
   return (
     <>
       <Helmet>
-        <title>Búsqueda Inteligente Inmobiliaria | {user?.nombre_usuario ?? "M&E Inmobiliaria"}</title>
+        <title>Búsqueda Inteligente Inmobiliaria | {user?.nombre_usuario ?? "Agencia Inmobiliaria"}</title>
         <meta
           name="description"
           content="Completa nuestro formulario inteligente de 6 pasos para definir tu perfil de búsqueda en Saltillo. Te presentaremos opciones altamente calificadas."
